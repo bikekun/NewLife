@@ -744,3 +744,60 @@ Script call stack:
 [2017.08.16-16.58.34:600][154]SourceControl:  rewrite Content/Data/BP/Character/Component/CharacterBaseParameters.uasset (87%)
 [2017.08.16-16.58.34:600][154]SourceControl:  rewrite Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset (80%)
 [2017.08.16-16.58.34:609][154]SourceControl: Commited [master feb50c4] Поправил DeadEvent..
+[2017.08.16-17.06.20:843][274]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-17.06.20:843][274]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-17.07.51:787][569]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-17.07.51:901][569]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.08.16-17.07.51:902][569]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.08.16-17.07.52:576][569]LogSavePackage: Save=87.36ms
+[2017.08.16-17.07.52:576][569]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParametersBBEC88E544E5F9E66B445480C4FFEBF5.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-17.07.52:578][569]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-17.07.53:246][617]LogSavePackage: Save=90.76ms
+[2017.08.16-17.07.53:246][617]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParameters04D2FFDE47D84A8264FC6792F40C7632.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-17.07.53:247][617]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-17.07.56:104][797]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.059
+[2017.08.16-17.08.05:804][797]LogSavePackage: Save=9800.23ms
+[2017.08.16-17.08.05:805][797]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/FirstPersonExampleMap80E473A847909853AA40B5B0743FDFD4.tmp' to '../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.08.16-17.08.05:807][797]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.08.16-17.08.05:873][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData" FILE="../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.08.16-17.08.08:649][797]LogSavePackage: Save=2758.11ms
+[2017.08.16-17.08.08:650][797]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/FirstPersonExampleMap_BuiltData21606DE04322228E2AF29D835C4A7DD5.tmp' to '../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.08.16-17.08.08:652][797]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.08.16-17.08.11:114][980]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-17.08.11:234][980]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.08.16-17.08.11:234][980]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.08.16-17.08.12:968][102]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.08.16-17.08.17:556][281]LogSavePackage: Save=93.92ms
+[2017.08.16-17.08.17:556][281]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/FirstPersonExampleMap497AC74242CA4337C557B394E62A2F64.tmp' to '../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.08.16-17.08.17:559][281]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.08.16-17.08.17:595][281]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.221
+[2017.08.16-17.08.19:578][405]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.16-17.08.19:600][405]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-17.08.19:600][405]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-17.08.19:601][405]PIE: New page: PIE session: FirstPersonExampleMap (Aug 16, 2017, 11:08:19 PM)
+[2017.08.16-17.08.19:601][405]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.16-17.08.19:633][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032419s)
+[2017.08.16-17.08.19:636][405]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.16-17.08.19:638][405]LogPlayLevel: PIE: World Init took: (0.003905s)
+[2017.08.16-17.08.19:639][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.037830s)
+[2017.08.16-17.08.19:700][405]LogInit: XAudio2 using 'Динамики (2- USB PnP Sound Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.16-17.08.19:709][405]LogInit: FAudioDevice initialized.
+[2017.08.16-17.08.19:743][405]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.16-17.08.19:747][405]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.16-20.08.19
+[2017.08.16-17.08.19:748][405]LogWorld: Bringing up level for play took: 0.003900
+[2017.08.16-17.08.19:752][405]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.047
+[2017.08.16-17.08.19:752][405]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-17.08.24:353][856]Cmd: LevelEditor.ToggleImmersive
+[2017.08.16-17.08.24:579][858]LogRenderer: Reallocating scene render targets to support 1364x740 Format 9 NumSamples 1 (Frame:455).
+[2017.08.16-17.08.25:448][939]Cmd: LevelEditor.ToggleImmersive
+[2017.08.16-17.08.29:462][234]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2017.08.16-17.08.41:768][931]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (EditorCube21)
+[2017.08.16-17.08.42:734][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube21)
+[2017.08.16-17.08.55:029][ 12]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2017.08.16-17.09.02:604][669]LogBlueprintUserMessages: [CharacterBaseParameters] FirstPersonCharacter: Умер!
+[2017.08.16-17.09.02:805][688]LogBlueprintUserMessages: [CharacterBaseParameters] FirstPersonCharacter: Умер!
+[2017.08.16-17.09.02:976][705]LogBlueprintUserMessages: [CharacterBaseParameters] FirstPersonCharacter: Умер!
+[2017.08.16-17.09.06:311][992]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2017.08.16-17.09.20:344][842]Cmd: SELECT NONE
+[2017.08.16-17.09.25:560][291]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-17.09.25:600][291]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
