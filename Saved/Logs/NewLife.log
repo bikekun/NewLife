@@ -1,13 +1,13 @@
-﻿Log file open, 08/15/17 21:13:01
+﻿Log file open, 08/16/17 19:04:11
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: NewLife
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1565977023) SRandInit(1565977023).
+LogInit: Display: RandInit(209143549) SRandInit(209143549).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.106832
+LogStats: Stats thread started at 0.158172
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -109,501 +109,638 @@ LogInit: Base directory: D:/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.08.15-18.13.01:970][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.15-18.13.01:970][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.08.15-18.13.01:982][  0]LogInit: Computer: DESKTOP-4OT4KEV
-[2017.08.15-18.13.01:982][  0]LogInit: User: potos
-[2017.08.15-18.13.01:982][  0]LogInit: CPU Page size=4096, Cores=2
-[2017.08.15-18.13.01:982][  0]LogInit: High frequency timer resolution =3.312790 MHz
-[2017.08.15-18.13.01:983][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
-[2017.08.15-18.13.01:983][  0]LogMemory: Platform Memory Stats for Windows
-[2017.08.15-18.13.01:983][  0]LogMemory: Process Physical Memory: 277.87 MB used, 277.87 MB peak
-[2017.08.15-18.13.01:983][  0]LogMemory: Process Virtual Memory: 275.54 MB used, 275.54 MB peak
-[2017.08.15-18.13.01:983][  0]LogMemory: Physical Memory: 4483.66 MB used,  7787.45 MB free, 12271.11 MB total
-[2017.08.15-18.13.01:983][  0]LogMemory: Virtual Memory: 666.27 MB used,  7787.45 MB free, 134217728.00 MB total
-[2017.08.15-18.13.02:125][  0]LogInit: Using OS detected language (ru-RU).
-[2017.08.15-18.13.02:125][  0]LogInit: Using OS detected locale (ru-RU).
-[2017.08.15-18.13.02:129][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
-[2017.08.15-18.13.02:130][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
-[2017.08.15-18.13.02:897][  0]LogD3D11RHI: D3D11 adapters:
-[2017.08.15-18.13.02:905][  0]LogD3D11RHI:    0. 'AMD Radeon HD 6800 Series' (Feature Level 11_0)
-[2017.08.15-18.13.02:905][  0]LogD3D11RHI:       1011/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2017.08.15-18.13.02:907][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.08.15-18.13.02:907][  0]LogD3D11RHI:       0/0/6135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.08.15-18.13.02:907][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.08.15-18.13.02:913][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.08.15-18.13.02:913][  0]LogD3D11RHI:     GPU DeviceId: 0x6739 (for the marketing name, search the web for "GPU Device Id")
-[2017.08.15-18.13.02:913][  0]LogWindows: EnumDisplayDevices:
-[2017.08.15-18.13.02:913][  0]LogWindows:    0. 'AMD Radeon HD 6800 Series' (P:1 D:1)
-[2017.08.15-18.13.02:913][  0]LogWindows:    1. 'AMD Radeon HD 6800 Series' (P:0 D:0)
-[2017.08.15-18.13.02:913][  0]LogWindows:    2. 'AMD Radeon HD 6800 Series' (P:0 D:0)
-[2017.08.15-18.13.02:914][  0]LogWindows:    3. 'AMD Radeon HD 6800 Series' (P:0 D:0)
-[2017.08.15-18.13.02:914][  0]LogWindows:    4. 'AMD Radeon HD 6800 Series' (P:0 D:0)
-[2017.08.15-18.13.02:914][  0]LogWindows:    5. 'AMD Radeon HD 6800 Series' (P:0 D:0)
-[2017.08.15-18.13.02:914][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2017.08.15-18.13.02:914][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 6800 Series
-[2017.08.15-18.13.02:914][  0]LogD3D11RHI:   Driver Version: 15.201.1151.1008 (internal:15.201.1151.1008, unified:15.201.1151.1008)
-[2017.08.15-18.13.02:914][  0]LogD3D11RHI:      Driver Date: 11-4-2015
-[2017.08.15-18.13.02:914][  0]LogRHI: Texture pool is 708 MB (70% of 1011 MB)
-[2017.08.15-18.13.02:938][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
-[2017.08.15-18.13.02:945][  0]LogD3D11RHI: Async texture creation enabled
-[2017.08.15-18.13.02:956][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.08.15-18.13.02:957][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (../../../../../Project/NewLife/Intermediate/Shaders/WorkingDirectory/8976/).
-[2017.08.15-18.13.02:957][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/potos/AppData/Local/Temp/UnrealShaderWorkingDir/CA760B1C4D4D4D40589812B351B0908E/'.
-[2017.08.15-18.13.02:957][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.08.15-18.13.04:073][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.08.15-18.13.04:119][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.08.15-18.13.04:165][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.08.15-18.13.04:210][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.08.15-18.13.04:256][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.08.15-18.13.04:302][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.08.15-18.13.04:350][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.08.15-18.13.04:396][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.08.15-18.13.04:436][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.08.15-18.13.04:483][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.08.15-18.13.04:529][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.08.15-18.13.04:575][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.08.15-18.13.04:618][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.08.15-18.13.04:661][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.08.15-18.13.04:705][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.08.15-18.13.04:793][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.08.15-18.13.04:793][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.08.15-18.13.04:825][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.08.15-18.13.04:907][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.08.15-18.13.04:935][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.08.15-18.13.04:979][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.08.15-18.13.05:023][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.08.15-18.13.05:068][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.08.15-18.13.05:116][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.08.15-18.13.05:117][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.08.15-18.13.05:513][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.08.15-18.13.05:674][  0]LogDerivedDataCache: Loaded boot cache 0.16s 93MB C:/Users/potos/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.08.15-18.13.05:675][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/potos/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.08.15-18.13.05:675][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Project/NewLife/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.08.15-18.13.05:675][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.08.15-18.13.05:675][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Project/NewLife/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.08.15-18.13.05:675][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.08.15-18.13.05:694][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.08.15-18.13.05:707][  0]LogDerivedDataCache: Using Local data cache path C:/Users/potos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.08.15-18.13.05:722][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.08.15-18.13.05:722][  0]LogSlate: Using Freetype 2.6.0
-[2017.08.15-18.13.05:723][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.15-18.13.05:723][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.15-18.13.06:044][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
-[2017.08.15-18.13.06:177][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.15-18.13.06:374][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.08.15-18.13.06:655][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.08.15-18.13.06:688][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.08.15-18.13.06:688][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.08.15-18.13.06:688][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.08.15-18.13.06:688][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.08.15-18.13.06:688][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.08.15-18.13.07:099][  0]LogNetVersion: NewLife , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3563508293)
-[2017.08.15-18.13.07:294][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.020776 seconds
-[2017.08.15-18.13.07:303][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.08.15-18.13.07:303][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2017.08.15-18.13.07:303][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.08.15-18.13.07:353][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.08.15-18.13.09:795][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.08.15-18.13.09:830][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.08.15-18.13.10:393][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.08.15-18.13.10:746][  0]SourceControl: Source control is disabled
-[2017.08.15-18.13.10:746][  0]SourceControl: Source control is disabled
-[2017.08.15-18.13.10:786][  0]SourceControl: Source control is disabled
-[2017.08.15-18.13.10:826][  0]SourceControl: Source control is disabled
-[2017.08.15-18.13.11:311][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.08.15-18.13.11:514][  0]LogOcInput: OculusInput pre-init called
-[2017.08.15-18.13.11:733][  0]LogEngine: Initializing Engine...
-[2017.08.15-18.13.11:736][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.08.15-18.13.12:050][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.08.15-18.13.12:050][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.08.15-18.13.12:168][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.08.15-18.13.12:180][  0]LogInit: XAudio2 using 'Динамики (2- USB PnP Sound Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.15-18.13.12:206][  0]LogInit: FAudioDevice initialized.
-[2017.08.15-18.13.12:353][  0]LogDerivedDataCache: Saved boot cache 0.15s 93MB C:/Users/potos/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.08.15-18.13.12:388][  0]LogInit: Texture streaming: Enabled
-[2017.08.15-18.13.12:485][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.08.15-18.13.12:671][  0]LogInit: Transaction tracking system initialized
-[2017.08.15-18.13.12:930][  0]BlueprintLog: New page: Editor Load
-[2017.08.15-18.13.13:677][  0]LocalizationService: Localization service is disabled
-[2017.08.15-18.13.14:111][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
-[2017.08.15-18.13.14:111][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
-[2017.08.15-18.13.14:111][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
-[2017.08.15-18.13.14:535][  0]LogConsoleResponse: Display: 
-[2017.08.15-18.13.14:730][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.08.15-18.13.14:730][  0]LogCook: Display: Mobile HDR setting 1
-[2017.08.15-18.13.14:730][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.08.15-18.13.14:961][  0]LogFileCache: Scanning file cache for directory 'D:/Project/NewLife/Content/' took 0.01s
-[2017.08.15-18.13.15:608][  0]SourceControl: Source control is disabled
-[2017.08.15-18.13.15:608][  0]Cmd: MAP LOAD FILE="../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.15-18.13.15:608][  0]LightingResults: New page: Lighting Build
-[2017.08.15-18.13.15:643][  0]MapCheck: New page: Map Check
-[2017.08.15-18.13.15:643][  0]LightingResults: New page: Lighting Build
-[2017.08.15-18.13.16:264][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.08.15-18.13.16:279][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.15-18.13.16:325][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.15-18.13.16:377][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.662ms to complete.
-[2017.08.15-18.13.16:377][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.769
-[2017.08.15-18.13.16:456][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.08.15-18.13.16:456][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.08.15-18.13.16:551][  0]LogCollectionManager: Loaded 0 collections in 0.001011 seconds
-[2017.08.15-18.13.16:642][  0]LogFileCache: Scanning file cache for directory 'D:/Project/NewLife/Saved/Collections/' took 0.01s
-[2017.08.15-18.13.16:642][  0]LogFileCache: Scanning file cache for directory 'D:/Project/NewLife/Content/Developers/potos/Collections/' took 0.01s
-[2017.08.15-18.13.16:642][  0]LogFileCache: Scanning file cache for directory 'D:/Project/NewLife/Content/Collections/' took 0.01s
-[2017.08.15-18.13.16:642][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.08.15-18.13.16:657][  0]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 2386 classes and 500 folders.
-[2017.08.15-18.13.16:724][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.08.15-18.13.16:766][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.08.15-18.13.16:802][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.08.15-18.13.16:897][  0]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.15-18.13.16:900][  0]LogSlate: Took 0.000379 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.08.15-18.13.16:906][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.08.15-18.13.17:040][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 9 NumSamples 1 (Frame:1).
-[2017.08.15-18.13.17:532][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.08.15-18.13.17:532][  0]LogLoad: (Engine Initialization) Total time: 16.87 seconds
-[2017.08.15-18.13.17:532][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.08.15-18.13.17:533][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.08.15-18.13.17:566][  0]LogContentStreaming: Texture pool size now 600 MB
-[2017.08.15-18.13.17:579][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.15-18.13.17:600][  1]LogAssetRegistry: Asset discovery search completed in 11.5777 seconds
-[2017.08.15-18.13.17:602][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.08.15-18.13.17:602][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000108 seconds (updated 0 objects)
-[2017.08.15-18.16.43:076][986]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.08.15-18.16.43:076][986]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.08.15-18.17.15:912][651]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
-[2017.08.15-18.20.19:030][926]SourceControl: Source control is disabled
-[2017.08.15-18.22.03:172][242]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
-[2017.08.15-18.30.54:584][922]SourceControl: On branch master
-[2017.08.15-18.30.54:584][922]SourceControl: Your branch is up-to-date with 'origin/master'.
-[2017.08.15-18.30.54:584][922]SourceControl: Changes not staged for commit:
-[2017.08.15-18.30.54:584][922]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.08.15-18.30.54:584][922]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.08.15-18.30.54:584][922]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
-[2017.08.15-18.30.54:584][922]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.08.15-18.30.54:584][922]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
-[2017.08.15-18.30.54:584][922]SourceControl: 	modified:   Saved/Logs/NewLife.log
-[2017.08.15-18.30.54:584][922]SourceControl: Untracked files:
-[2017.08.15-18.30.54:584][922]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.08.15-18.30.54:584][922]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-A421C9A44744239BDEFF7F93CD2B1ADF/
-[2017.08.15-18.30.54:584][922]SourceControl: 	Saved/Logs/NewLife-backup-2017.08.15-21.13.01.log
-[2017.08.15-18.30.54:584][922]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.08.15-18.31.13:618][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube8)
-[2017.08.15-18.31.19:854][314]SourceControl: fatal: D:/Epic Games/UE_4.17/Engine/Content/: 'D:/Epic Games/UE_4.17/Engine/Content/' is outside repository
-[2017.08.15-18.31.19:937][314]EditorErrors: Warning: No assets to check in!
-[2017.08.15-18.31.28:054][925]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.15-18.31.28:258][925]LogSavePackage: Save=94.43ms
-[2017.08.15-18.31.28:258][925]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/FirstPersonExampleMapA6C72CC640B946EB999FB2986CA32141.tmp' to '../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2017.08.15-18.31.28:261][925]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
-[2017.08.15-18.31.28:292][925]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.218
-[2017.08.15-18.31.41:928][997]SourceControl: On branch master
-[2017.08.15-18.31.41:928][997]SourceControl: Your branch is up-to-date with 'origin/master'.
-[2017.08.15-18.31.41:928][997]SourceControl: Changes not staged for commit:
-[2017.08.15-18.31.41:928][997]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.08.15-18.31.41:928][997]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.08.15-18.31.41:928][997]SourceControl: 	modified:   Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
-[2017.08.15-18.31.41:929][997]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
-[2017.08.15-18.31.41:929][997]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
-[2017.08.15-18.31.41:929][997]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.08.15-18.31.41:929][997]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
-[2017.08.15-18.31.41:929][997]SourceControl: 	modified:   Saved/Logs/NewLife.log
-[2017.08.15-18.31.41:929][997]SourceControl: Untracked files:
-[2017.08.15-18.31.41:929][997]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.08.15-18.31.41:929][997]SourceControl: 	Saved/Backup/FirstPersonExampleMap_2017-08-15-21-31-28.umap
-[2017.08.15-18.31.41:929][997]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-A421C9A44744239BDEFF7F93CD2B1ADF/
-[2017.08.15-18.31.41:929][997]SourceControl: 	Saved/Logs/NewLife-backup-2017.08.15-21.13.01.log
-[2017.08.15-18.31.41:929][997]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.08.15-18.31.47:717][493]SourceControl: fatal: D:/Epic Games/UE_4.17/Engine/Content/: 'D:/Epic Games/UE_4.17/Engine/Content/' is outside repository
-[2017.08.15-18.31.59:594][493]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.08.15-18.31.59:595][493]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.08.15-18.32.09:750][493]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.08.15-18.32.09:772][493]SourceControl: [master 03411df] Тестовый коммит
-[2017.08.15-18.32.09:772][493]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
-[2017.08.15-18.32.09:780][493]SourceControl: Commited [master 03411df] Тестовый коммит.
-[2017.08.15-18.35.36:771][833]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.08.15-18.35.36:771][833]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.08.15-18.35.53:795][566]Cmd: QUIT_EDITOR
-[2017.08.15-18.35.53:850][566]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.08.15-18.35.53:850][566]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.08.15-18.35.53:865][566]LogExit: Preparing to exit.
-[2017.08.15-18.35.54:473][566]LogDirectoryWatcher: A directory notification for 'D:/Project/NewLife/Content/' was aborted.
-[2017.08.15-18.35.54:541][566]LogExit: Editor shut down
-[2017.08.15-18.35.54:551][566]LogExit: Transaction tracking system shut down
-[2017.08.15-18.35.54:720][566]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.08.15-18.35.54:720][566]LogDirectoryWatcher: A directory notification for '../../../../../Project/NewLife/Content/' was aborted.
-[2017.08.15-18.35.54:720][566]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.08.15-18.35.54:720][566]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.08.15-18.35.54:720][566]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.08.15-18.35.54:799][566]LogExit: Object subsystem successfully closed.
-[2017.08.15-18.35.54:816][566]LogD3D11RHI: Shutdown
-[2017.08.15-18.35.54:817][566]LogD3D11RHI: CleanupD3DDevice
-[2017.08.15-18.35.54:918][566]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.08.15-18.35.54:927][566]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
-[2017.08.15-18.35.54:927][566]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2017.08.15-18.35.54:927][566]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2017.08.15-18.35.54:927][566]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2017.08.15-18.35.54:928][566]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2017.08.15-18.35.54:929][566]LogDirectoryWatcher: A directory notification for 'D:/Project/NewLife/Content/Collections/' was aborted.
-[2017.08.15-18.35.54:929][566]LogDirectoryWatcher: A directory notification for 'D:/Project/NewLife/Content/Developers/potos/Collections/' was aborted.
-[2017.08.15-18.35.54:929][566]LogDirectoryWatcher: A directory notification for 'D:/Project/NewLife/Saved/Collections/' was aborted.
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2017.08.15-18.35.54:929][566]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module Media (477)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
-[2017.08.15-18.35.54:930][566]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
-[2017.08.15-18.35.55:526][566]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
-[2017.08.15-18.35.55:526][566]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
-[2017.08.15-18.35.55:526][566]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
-[2017.08.15-18.35.55:527][566]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
-[2017.08.15-18.35.55:527][566]LogModuleManager: Shutting down and abandoning module MergeActors (434)
-[2017.08.15-18.35.55:527][566]LogModuleManager: Shutting down and abandoning module SizeMap (432)
-[2017.08.15-18.35.55:527][566]LogModuleManager: Shutting down and abandoning module TreeMap (430)
-[2017.08.15-18.35.55:527][566]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
-[2017.08.15-18.35.55:527][566]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
-[2017.08.15-18.35.55:527][566]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
-[2017.08.15-18.35.55:527][566]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
-[2017.08.15-18.35.55:527][566]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
-[2017.08.15-18.35.55:527][566]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
-[2017.08.15-18.35.55:527][566]LogModuleManager: Shutting down and abandoning module XmlParser (416)
-[2017.08.15-18.35.55:527][566]LogModuleManager: Shutting down and abandoning module Blutility (414)
-[2017.08.15-18.35.55:527][566]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
-[2017.08.15-18.35.55:527][566]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
-[2017.08.15-18.35.55:528][566]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
-[2017.08.15-18.35.55:528][566]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
-[2017.08.15-18.35.55:528][566]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
-[2017.08.15-18.35.55:528][566]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
-[2017.08.15-18.35.55:528][566]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
-[2017.08.15-18.35.55:528][566]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
-[2017.08.15-18.35.55:528][566]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
-[2017.08.15-18.35.55:590][566]LogModuleManager: Shutting down and abandoning module AutomationController (394)
-[2017.08.15-18.35.55:590][566]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
-[2017.08.15-18.35.55:590][566]LogModuleManager: Shutting down and abandoning module Layers (390)
-[2017.08.15-18.35.55:590][566]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
-[2017.08.15-18.35.55:590][566]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
-[2017.08.15-18.35.55:591][566]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
-[2017.08.15-18.35.55:591][566]LogModuleManager: Shutting down and abandoning module Persona (382)
-[2017.08.15-18.35.55:591][566]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
-[2017.08.15-18.35.55:591][566]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
-[2017.08.15-18.35.55:591][566]LogModuleManager: Shutting down and abandoning module Kismet (376)
-[2017.08.15-18.35.55:592][566]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
-[2017.08.15-18.35.55:592][566]LogModuleManager: Shutting down and abandoning module Toolbox (372)
-[2017.08.15-18.35.55:592][566]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
-[2017.08.15-18.35.55:592][566]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
-[2017.08.15-18.35.55:592][566]LogModuleManager: Shutting down and abandoning module OutputLog (366)
-[2017.08.15-18.35.55:592][566]LogModuleManager: Shutting down and abandoning module GammaUI (364)
-[2017.08.15-18.35.55:592][566]LogModuleManager: Shutting down and abandoning module Documentation (362)
-[2017.08.15-18.35.55:592][566]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
-[2017.08.15-18.35.55:592][566]LogModuleManager: Shutting down and abandoning module MovieScene (358)
-[2017.08.15-18.35.55:592][566]LogModuleManager: Shutting down and abandoning module Niagara (356)
-[2017.08.15-18.35.55:592][566]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
-[2017.08.15-18.35.55:593][566]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
-[2017.08.15-18.35.55:593][566]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
-[2017.08.15-18.35.55:593][566]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
-[2017.08.15-18.35.55:593][566]LogModuleManager: Shutting down and abandoning module PortalServices (346)
-[2017.08.15-18.35.55:593][566]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
-[2017.08.15-18.35.55:593][566]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
-[2017.08.15-18.35.55:593][566]LogModuleManager: Shutting down and abandoning module AIModule (340)
-[2017.08.15-18.35.55:593][566]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
-[2017.08.15-18.35.55:593][566]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
-[2017.08.15-18.35.55:593][566]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
-[2017.08.15-18.35.55:831][566]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
-[2017.08.15-18.35.55:831][566]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
-[2017.08.15-18.35.55:831][566]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
-[2017.08.15-18.35.55:831][566]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
-[2017.08.15-18.35.55:831][566]LogModuleManager: Shutting down and abandoning module OculusInput (324)
-[2017.08.15-18.35.55:831][566]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
-[2017.08.15-18.35.55:831][566]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
-[2017.08.15-18.35.55:832][566]LogModuleManager: Shutting down and abandoning module CableComponent (318)
-[2017.08.15-18.35.55:832][566]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
-[2017.08.15-18.35.55:832][566]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
-[2017.08.15-18.35.55:832][566]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
-[2017.08.15-18.35.55:832][566]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
-[2017.08.15-18.35.55:832][566]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
-[2017.08.15-18.35.55:832][566]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
-[2017.08.15-18.35.55:832][566]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
-[2017.08.15-18.35.55:832][566]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
-[2017.08.15-18.35.55:833][566]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
-[2017.08.15-18.35.55:833][566]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
-[2017.08.15-18.35.55:833][566]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
-[2017.08.15-18.35.55:833][566]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
-[2017.08.15-18.35.55:833][566]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
-[2017.08.15-18.35.55:833][566]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
-[2017.08.15-18.35.55:833][566]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
-[2017.08.15-18.35.55:833][566]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
-[2017.08.15-18.35.55:834][566]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
-[2017.08.15-18.35.55:834][566]LogModuleManager: Shutting down and abandoning module SourceControl (281)
-[2017.08.15-18.35.55:834][566]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
-[2017.08.15-18.35.55:834][566]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
-[2017.08.15-18.35.55:834][566]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
-[2017.08.15-18.35.55:834][566]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
-[2017.08.15-18.35.55:834][566]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
-[2017.08.15-18.35.55:834][566]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2017.08.15-18.35.55:836][566]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2017.08.15-18.35.55:836][566]LogModuleManager: Shutting down and abandoning module MainFrame (266)
-[2017.08.15-18.35.55:836][566]LogModuleManager: Shutting down and abandoning module HotReload (265)
-[2017.08.15-18.35.55:837][566]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2017.08.15-18.35.55:837][566]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2017.08.15-18.35.55:837][566]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2017.08.15-18.35.55:837][566]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2017.08.15-18.35.55:837][566]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2017.08.15-18.35.55:837][566]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2017.08.15-18.35.55:837][566]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2017.08.15-18.35.55:837][566]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2017.08.15-18.35.55:937][566]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2017.08.15-18.35.56:037][566]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2017.08.15-18.35.56:037][566]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2017.08.15-18.35.56:037][566]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2017.08.15-18.35.56:037][566]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2017.08.15-18.35.56:037][566]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2017.08.15-18.35.56:038][566]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2017.08.15-18.35.56:039][566]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2017.08.15-18.35.56:039][566]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2017.08.15-18.35.56:039][566]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2017.08.15-18.35.56:039][566]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2017.08.15-18.35.56:040][566]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2017.08.15-18.35.56:040][566]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2017.08.15-18.35.56:040][566]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2017.08.15-18.35.56:040][566]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2017.08.15-18.35.56:040][566]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2017.08.15-18.35.56:040][566]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2017.08.15-18.35.56:040][566]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2017.08.15-18.35.56:040][566]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2017.08.15-18.35.56:040][566]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2017.08.15-18.35.56:040][566]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2017.08.15-18.35.56:040][566]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2017.08.15-18.35.56:040][566]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2017.08.15-18.35.56:040][566]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2017.08.15-18.35.56:040][566]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2017.08.15-18.35.56:040][566]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2017.08.15-18.35.56:040][566]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2017.08.15-18.35.56:041][566]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2017.08.15-18.35.56:041][566]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2017.08.15-18.35.56:041][566]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2017.08.15-18.35.56:041][566]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2017.08.15-18.35.56:045][566]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2017.08.15-18.35.56:045][566]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2017.08.15-18.35.56:045][566]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2017.08.15-18.35.56:045][566]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2017.08.15-18.35.56:045][566]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2017.08.15-18.35.56:045][566]LogModuleManager: Shutting down and abandoning module Core (168)
-[2017.08.15-18.35.56:045][566]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.08.15-18.35.56:045][566]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2017.08.15-18.35.56:045][566]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2017.08.15-18.35.56:045][566]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2017.08.15-18.35.56:045][566]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2017.08.15-18.35.56:045][566]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2017.08.15-18.35.56:045][566]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2017.08.15-18.35.56:045][566]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2017.08.15-18.35.56:045][566]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2017.08.15-18.35.56:045][566]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2017.08.15-18.35.56:047][566]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.08.15-18.35.56:083][566]LogDerivedDataCache: Shutdown
-[2017.08.15-18.35.56:083][566]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.08.15-18.35.56:083][566]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.08.15-18.35.56:083][566]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.08.15-18.35.56:083][566]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.08.15-18.35.56:083][566]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.08.15-18.35.56:083][566]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.08.15-18.35.56:083][566]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.08.15-18.35.56:083][566]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.08.15-18.35.56:083][566]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.08.15-18.35.56:083][566]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.08.15-18.35.56:083][566]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.08.15-18.35.56:084][566]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.08.15-18.35.56:085][566]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.08.15-18.35.56:085][566]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.08.15-18.35.56:085][566]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.08.15-18.35.56:085][566]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.08.15-18.35.56:085][566]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.08.15-18.35.56:085][566]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.08.15-18.35.56:085][566]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.08.15-18.35.56:085][566]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2017.08.15-18.35.56:085][566]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2017.08.15-18.35.56:085][566]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2017.08.15-18.35.56:085][566]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.08.15-18.35.56:085][566]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.08.15-18.35.56:085][566]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.08.15-18.35.56:085][566]LogOnline: Display: Unloading online subsystem: NULL
-[2017.08.15-18.35.56:085][566]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.08.15-18.35.56:085][566]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.08.15-18.35.56:085][566]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.08.15-18.35.56:085][566]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0A104D93-4EBE-5DD4-2AD8-219806ABAB4E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.0-3573198%2B%2B%2BUE4%2BRelease-4.17&UserID=5a0b293541cc3379ee78fdb68efb7dd9%7C9073dc4707914331b3bd5b8e64aa0577%7Ccbb2df0a-7e40-4cf1-8f5f-aa8f0d711369&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.08.15-18.35.56:089][566]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.08.15-18.35.56:092][566]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.08.15-18.35.56:092][566]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.08.15-18.35.56:092][566]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.08.15-18.35.56:092][566]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.08.15-18.35.56:092][566]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.08.15-18.35.56:092][566]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.08.15-18.35.56:092][566]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.08.15-18.35.56:094][566]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.08.15-18.35.56:094][566]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.08.15-18.35.56:094][566]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.08.15-18.35.56:094][566]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.08.15-18.35.56:094][566]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.08.15-18.35.56:094][566]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.08.15-18.35.56:094][566]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.08.15-18.35.56:094][566]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.08.15-18.35.56:094][566]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.08.15-18.35.56:094][566]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.08.15-18.35.56:094][566]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.08.15-18.35.56:097][566]LogExit: Exiting.
-[2017.08.15-18.35.56:118][566]Log file closed, 08/15/17 21:35:56
+[2017.08.16-16.04.12:807][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.16-16.04.12:807][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.16-16.04.12:852][  0]LogInit: Computer: DESKTOP-4OT4KEV
+[2017.08.16-16.04.12:852][  0]LogInit: User: potos
+[2017.08.16-16.04.12:852][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.16-16.04.12:852][  0]LogInit: High frequency timer resolution =3.312790 MHz
+[2017.08.16-16.04.12:853][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2017.08.16-16.04.12:853][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.16-16.04.12:853][  0]LogMemory: Process Physical Memory: 277.95 MB used, 277.95 MB peak
+[2017.08.16-16.04.12:853][  0]LogMemory: Process Virtual Memory: 275.64 MB used, 275.64 MB peak
+[2017.08.16-16.04.12:853][  0]LogMemory: Physical Memory: 4181.84 MB used,  8089.27 MB free, 12271.11 MB total
+[2017.08.16-16.04.12:853][  0]LogMemory: Virtual Memory: 666.27 MB used,  8089.27 MB free, 134217728.00 MB total
+[2017.08.16-16.04.13:283][  0]LogInit: Using OS detected language (ru-RU).
+[2017.08.16-16.04.13:283][  0]LogInit: Using OS detected locale (ru-RU).
+[2017.08.16-16.04.13:347][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2017.08.16-16.04.13:347][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2017.08.16-16.04.17:078][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.16-16.04.17:094][  0]LogD3D11RHI:    0. 'AMD Radeon HD 6800 Series' (Feature Level 11_0)
+[2017.08.16-16.04.17:094][  0]LogD3D11RHI:       1011/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.08.16-16.04.17:095][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.16-16.04.17:095][  0]LogD3D11RHI:       0/0/6135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.16-16.04.17:095][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.16-16.04.17:103][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.16-16.04.17:103][  0]LogD3D11RHI:     GPU DeviceId: 0x6739 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.16-16.04.17:103][  0]LogWindows: EnumDisplayDevices:
+[2017.08.16-16.04.17:103][  0]LogWindows:    0. 'AMD Radeon HD 6800 Series' (P:1 D:1)
+[2017.08.16-16.04.17:104][  0]LogWindows:    1. 'AMD Radeon HD 6800 Series' (P:0 D:0)
+[2017.08.16-16.04.17:104][  0]LogWindows:    2. 'AMD Radeon HD 6800 Series' (P:0 D:0)
+[2017.08.16-16.04.17:105][  0]LogWindows:    3. 'AMD Radeon HD 6800 Series' (P:0 D:0)
+[2017.08.16-16.04.17:105][  0]LogWindows:    4. 'AMD Radeon HD 6800 Series' (P:0 D:0)
+[2017.08.16-16.04.17:106][  0]LogWindows:    5. 'AMD Radeon HD 6800 Series' (P:0 D:0)
+[2017.08.16-16.04.17:106][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.08.16-16.04.17:106][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 6800 Series
+[2017.08.16-16.04.17:106][  0]LogD3D11RHI:   Driver Version: 15.201.1151.1008 (internal:15.201.1151.1008, unified:15.201.1151.1008)
+[2017.08.16-16.04.17:106][  0]LogD3D11RHI:      Driver Date: 11-4-2015
+[2017.08.16-16.04.17:106][  0]LogRHI: Texture pool is 708 MB (70% of 1011 MB)
+[2017.08.16-16.04.17:134][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
+[2017.08.16-16.04.17:145][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.16-16.04.17:188][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.08.16-16.04.17:197][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (../../../../../Project/NewLife/Intermediate/Shaders/WorkingDirectory/3152/).
+[2017.08.16-16.04.17:197][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/potos/AppData/Local/Temp/UnrealShaderWorkingDir/A6CA396F44ABCB8B2A8A4D99E75FE7F9/'.
+[2017.08.16-16.04.17:198][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.16-16.04.20:421][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.16-16.04.20:480][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.16-16.04.20:532][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.16-16.04.20:582][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.16-16.04.20:643][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.16-16.04.20:697][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.16-16.04.20:749][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.16-16.04.20:798][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.16-16.04.20:851][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.16-16.04.20:940][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.16-16.04.21:027][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.16-16.04.21:104][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.16-16.04.21:187][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.16-16.04.21:272][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.16-16.04.21:360][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.16-16.04.21:485][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.16-16.04.21:486][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.16-16.04.21:520][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.16-16.04.21:646][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.16-16.04.21:678][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.16-16.04.21:726][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.16-16.04.21:829][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.16-16.04.21:969][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.16-16.04.22:027][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.16-16.04.22:027][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.16-16.04.23:021][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.16-16.04.23:807][  0]LogDerivedDataCache: Loaded boot cache 0.79s 93MB C:/Users/potos/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.16-16.04.23:807][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/potos/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.16-16.04.23:807][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Project/NewLife/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.16-16.04.23:807][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.16-16.04.23:807][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Project/NewLife/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.16-16.04.23:807][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.16-16.04.23:859][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.16-16.04.23:872][  0]LogDerivedDataCache: Using Local data cache path C:/Users/potos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.16-16.04.23:902][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.16-16.04.23:911][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.16-16.04.23:942][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.16-16.04.23:943][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.16-16.04.27:774][  0]LogAssetRegistry: FAssetRegistry took 0.0303 seconds to start up
+[2017.08.16-16.04.27:984][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.16-16.04.28:530][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.16-16.04.28:963][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.16-16.04.29:003][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.16-16.04.29:004][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.16-16.04.29:004][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.16-16.04.29:004][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.16-16.04.29:004][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.16-16.04.29:966][  0]LogNetVersion: NewLife , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3563508293)
+[2017.08.16-16.04.30:498][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.034789 seconds
+[2017.08.16-16.04.30:507][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.16-16.04.30:507][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.08.16-16.04.30:507][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.16-16.04.30:559][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.16-16.04.37:023][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.16-16.04.37:061][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.16-16.04.37:952][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.16-16.04.38:483][  0]SourceControl: Source control is disabled
+[2017.08.16-16.04.39:381][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.16-16.04.39:599][  0]LogOcInput: OculusInput pre-init called
+[2017.08.16-16.04.39:893][  0]LogEngine: Initializing Engine...
+[2017.08.16-16.04.39:896][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.16-16.04.40:477][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.16-16.04.40:477][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.16-16.04.40:619][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.16-16.04.40:645][  0]LogInit: XAudio2 using 'Динамики (2- USB PnP Sound Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.16-16.04.40:660][  0]LogInit: FAudioDevice initialized.
+[2017.08.16-16.04.40:829][  0]LogDerivedDataCache: Saved boot cache 0.17s 93MB C:/Users/potos/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.16-16.04.40:865][  0]LogInit: Texture streaming: Enabled
+[2017.08.16-16.04.40:965][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.16-16.04.41:202][  0]LogInit: Transaction tracking system initialized
+[2017.08.16-16.04.41:541][  0]BlueprintLog: New page: Editor Load
+[2017.08.16-16.04.42:429][  0]LocalizationService: Localization service is disabled
+[2017.08.16-16.04.42:918][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2017.08.16-16.04.42:918][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2017.08.16-16.04.42:918][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2017.08.16-16.04.43:395][  0]LogConsoleResponse: Display: 
+[2017.08.16-16.04.43:938][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.16-16.04.43:938][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.16-16.04.43:939][  0]LogFileCache: Scanning file cache for directory 'D:/Project/NewLife/Content/' took 0.02s
+[2017.08.16-16.04.43:939][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.16-16.04.45:014][  0]Cmd: MAP LOAD FILE="../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.16-16.04.45:016][  0]LightingResults: New page: Lighting Build
+[2017.08.16-16.04.45:056][  0]MapCheck: New page: Map Check
+[2017.08.16-16.04.45:056][  0]LightingResults: New page: Lighting Build
+[2017.08.16-16.04.46:456][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.16-16.04.46:506][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.16-16.04.46:564][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.16-16.04.46:617][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.729ms to complete.
+[2017.08.16-16.04.46:617][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.605
+[2017.08.16-16.04.46:913][  0]LogCollectionManager: Loaded 0 collections in 0.001077 seconds
+[2017.08.16-16.04.47:005][  0]LogFileCache: Scanning file cache for directory 'D:/Project/NewLife/Saved/Collections/' took 0.01s
+[2017.08.16-16.04.47:005][  0]LogFileCache: Scanning file cache for directory 'D:/Project/NewLife/Content/Developers/potos/Collections/' took 0.01s
+[2017.08.16-16.04.47:005][  0]LogFileCache: Scanning file cache for directory 'D:/Project/NewLife/Content/Collections/' took 0.01s
+[2017.08.16-16.04.47:005][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.16-16.04.47:019][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2386 classes and 500 folders.
+[2017.08.16-16.04.47:078][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.08.16-16.04.47:509][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.08.16-16.04.47:563][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.08.16-16.04.47:792][  0]LogSlate: Took 0.005717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.16-16.04.47:801][  0]LogSlate: Took 0.006777 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.16-16.04.47:817][  0]LogSlate: Took 0.007521 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.16-16.04.48:022][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 9 NumSamples 1 (Frame:1).
+[2017.08.16-16.04.48:562][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.08.16-16.04.48:562][  0]LogLoad: (Engine Initialization) Total time: 39.51 seconds
+[2017.08.16-16.04.48:563][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.16-16.04.48:563][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.16-16.04.48:934][  0]SourceControl: On branch master
+[2017.08.16-16.04.48:934][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.08.16-16.04.48:934][  0]SourceControl: Changes not staged for commit:
+[2017.08.16-16.04.48:934][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.08.16-16.04.48:934][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.08.16-16.04.48:934][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.08.16-16.04.48:934][  0]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.08.16-16.04.48:934][  0]SourceControl: 	modified:   Saved/Logs/NewLife.log
+[2017.08.16-16.04.48:934][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.08.16-16.04.48:935][  0]LogContentStreaming: Texture pool size now 600 MB
+[2017.08.16-16.04.48:973][  0]LogSlate: Took 0.006271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.16-16.04.49:919][  3]LogAssetRegistry: Asset discovery search completed in 22.1681 seconds
+[2017.08.16-16.04.49:923][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.16-16.04.49:923][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000206 seconds (updated 0 objects)
+[2017.08.16-16.05.05:571][ 50]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.05.05:571][ 50]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.05.14:494][948]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.16-16.05.14:561][948]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.05.14:561][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-16.05.14:563][948]PIE: New page: PIE session: FirstPersonExampleMap (Aug 16, 2017, 10:05:14 PM)
+[2017.08.16-16.05.14:563][948]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.16-16.05.14:596][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031671s)
+[2017.08.16-16.05.14:598][948]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.16-16.05.14:598][948]LogPlayLevel: PIE: World Init took: (0.002400s)
+[2017.08.16-16.05.14:599][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.034639s)
+[2017.08.16-16.05.14:625][948]LogInit: XAudio2 using 'Динамики (2- USB PnP Sound Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.16-16.05.14:632][948]LogInit: FAudioDevice initialized.
+[2017.08.16-16.05.14:680][948]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.16-16.05.14:689][948]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.16-19.05.14
+[2017.08.16-16.05.14:692][948]LogWorld: Bringing up level for play took: 0.009727
+[2017.08.16-16.05.14:754][948]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.08.16-16.05.14:756][948]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.984
+[2017.08.16-16.05.14:756][948]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.05.28:438][420]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.05.28:474][420]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.06.52:295][546]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.16-16.07.55:122][134]LogSavePackage: Save=10.24ms
+[2017.08.16-16.07.55:122][134]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParameters2587BB954DA7CE56CB73378C3022962D.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.07.55:128][134]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.07.58:177][396]SourceControl: fatal: D:/Epic Games/UE_4.17/Engine/Content/: 'D:/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.08.16-16.08.01:874][396]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.08.01:874][396]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.08.04:354][396]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.08.04:354][396]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.08.19:644][396]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.08.16-16.08.19:666][396]SourceControl: [master cb18faa] Добавил Character base parameters
+[2017.08.16-16.08.19:666][396]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2017.08.16-16.08.19:666][396]SourceControl:  create mode 100644 Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.08.19:674][396]SourceControl: Commited [master cb18faa] Добавил Character base parameters.
+[2017.08.16-16.08.26:246][875]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 113 classes and 0 folders.
+[2017.08.16-16.08.27:195][875]LogSlate: Took 0.005122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.16-16.09.13:732][325]LogSlate: Took 0.005528 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.16-16.09.18:397][873]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.09.18:397][873]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.09.36:415][  7]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.09.36:415][  7]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.09.50:338][662]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.09.50:338][662]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.10.09:429][935]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.10.09:429][935]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.10.22:293][465]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.10.22:293][465]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.10.32:062][624]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.10.32:062][624]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.10.41:169][711]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.10.41:169][711]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.11.00:169][963]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.11.00:169][963]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.11.20:313][358]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.11.20:313][358]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.11.37:095][327]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.11.37:211][327]LogSavePackage: Save=10.86ms
+[2017.08.16-16.11.37:211][327]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParametersB5395AEC4F984C1EA9E75FA1D175A6B2.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.11.37:213][327]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.12.09:670][169]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.12.09:775][169]LogSavePackage: Save=11.38ms
+[2017.08.16-16.12.09:775][169]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParameters00E896264A8605F9D49AD693E10C290A.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.12.09:778][169]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.12.30:935][693]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.12.30:935][693]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.15.00:462][314]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.15.00:462][314]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.15.07:816][193]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.15.07:816][193]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.15.13:558][879]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.15.13:558][879]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.15.20:031][651]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.15.20:031][651]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.15.24:482][182]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.15.24:482][182]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.15.27:724][570]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.15.27:724][570]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.15.28:616][675]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.15.28:616][675]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.15.36:865][658]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.15.36:865][658]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.16.38:689][873]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.16.38:815][873]LogSavePackage: Save=18.97ms
+[2017.08.16-16.16.38:815][873]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParametersFB31927640B02A0C8F44BC98DCB993A9.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.16.38:817][873]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.16.39:360][924]LogSavePackage: Save=18.67ms
+[2017.08.16-16.16.39:360][924]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParametersF4BABF44467C9DBEFD7E2C9DFD294A73.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.16.39:361][924]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.17.15:532][246]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.17.15:533][246]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.17.18:835][626]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.17.18:835][626]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.17.43:581][570]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.17.43:582][570]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.17.46:275][892]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.17.46:275][892]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.17.52:652][655]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.17.52:652][655]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.18.02:043][781]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.18.02:043][781]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.18.11:284][867]LogSlate: Took 0.005237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.16-16.19.06:333][311]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.19.06:465][311]LogSavePackage: Save=25.70ms
+[2017.08.16-16.19.06:465][311]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParametersB3153A1149CD04F1D44D08AAA2CFC92F.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.19.06:467][311]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.19.36:303][824]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.19.36:426][824]LogSavePackage: Save=27.43ms
+[2017.08.16-16.19.36:426][824]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParameters7536343547CC4F2915C3628F9B0312FF.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.19.36:428][824]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.20.01:563][811]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.20.01:693][811]LogSavePackage: Save=28.04ms
+[2017.08.16-16.20.01:693][811]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParametersF4E68A74456A8D2C77444CBB761D1829.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.20.01:695][811]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.20.02:114][846]LogSavePackage: Save=28.02ms
+[2017.08.16-16.20.02:114][846]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParametersB167D9C841A22C6266363F8BFA6D0CB7.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.20.02:115][846]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.25.02:816][175]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.25.02:983][175]LogSavePackage: Save=43.79ms
+[2017.08.16-16.25.02:983][175]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParameters4265E10B444DC17D75C52DAD00C4C404.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.25.02:985][175]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.25.05:158][416]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.25.05:305][416]LogSavePackage: Save=42.83ms
+[2017.08.16-16.25.05:305][416]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParameters8F324E7D4177A95E2CB578B69B7C310A.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.25.05:307][416]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.26.43:877][764]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.26.43:877][764]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.27.08:532][630]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.27.08:700][630]LogSavePackage: Save=55.28ms
+[2017.08.16-16.27.08:700][630]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParametersA83BF4EC41C89D6415E400B7D8E55F25.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.27.08:702][630]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.27.09:189][671]LogSavePackage: Save=50.30ms
+[2017.08.16-16.27.09:190][671]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParametersFB35FBAF4ADB3FF99DB7EBAB1A38ACA7.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.27.09:190][671]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.27.16:006][441]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.27.16:006][441]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.27.18:742][762]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.27.18:742][762]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.28.07:751][333]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.28.07:913][333]LogSavePackage: Save=52.07ms
+[2017.08.16-16.28.07:913][333]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParameters415F675749585D0760DF568997A46C38.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.28.07:915][333]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.28.15:074][136]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.28.15:074][136]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.29.26:056][171]LogBlueprint: Error: [Compiler ] Call Dead  cannot be placed in macro graph
+[2017.08.16-16.29.26:056][171]BlueprintLog: New page: Collapse to Macro
+[2017.08.16-16.29.26:057][171]BlueprintLog: Error: Call Dead  cannot be placed in macro graph
+[2017.08.16-16.29.26:068][171]LogBlueprint: Warning: [Compiler ] [1517.01] Compile of  failed. 1 Fatal Issue(s) 0 Warning(s) [in 6 ms] ()
+[2017.08.16-16.29.37:113][447]BlueprintLog: New page: Collapse to Function
+[2017.08.16-16.30.39:885][800]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.30.40:084][800]LogSavePackage: Save=61.27ms
+[2017.08.16-16.30.40:084][800]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParameters7D81E27F4B8163150E045F8B56AB095B.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.30.40:086][800]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.30.40:616][842]LogSavePackage: Save=61.35ms
+[2017.08.16-16.30.40:616][842]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParametersC64BFDC24A72FFEABFD3A2B74CD182B1.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.30.40:617][842]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.30.57:356][727]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.30.57:356][727]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.31.15:400][779]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.31.15:401][779]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.32.06:446][347]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.32.06:446][347]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.32.20:319][887]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.32.20:319][887]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.33.08:420][145]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.33.08:420][145]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.33.17:451][148]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.33.17:668][148]LogSavePackage: Save=77.47ms
+[2017.08.16-16.33.17:669][148]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParameters432A36F542FA30265EB9CDA5A0F72FAB.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.33.17:671][148]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.33.18:049][169]LogSavePackage: Save=77.52ms
+[2017.08.16-16.33.18:049][169]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParameters3DE676124853AFCD94CDC1B59525DAE4.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.33.18:050][169]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.34.06:044][647]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.34.06:044][647]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.34.52:534][970]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.34.52:534][970]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.35.23:843][616]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.35.24:065][616]LogSavePackage: Save=87.61ms
+[2017.08.16-16.35.24:066][616]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParameters98B502F0450879BD3B4B8A821A9C824B.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.35.24:068][616]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.35.29:685][ 54]SourceControl: fatal: D:/Epic Games/UE_4.17/Engine/Content/: 'D:/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.08.16-16.35.34:683][ 54]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.35.34:683][ 54]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.35.37:654][ 54]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.35.37:654][ 54]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.35.54:236][ 54]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.08.16-16.35.54:258][ 54]SourceControl: [master 7cf6fa6] обавил базовые функции по манипуляции с базовыми параметрами
+[2017.08.16-16.35.54:258][ 54]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2017.08.16-16.35.54:258][ 54]SourceControl:  rewrite Content/Data/BP/Character/Component/CharacterBaseParameters.uasset (81%)
+[2017.08.16-16.35.54:265][ 54]SourceControl: Commited [master 7cf6fa6] обавил базовые функции по манипуляции с базовыми параметрами.
+[2017.08.16-16.40.19:585][573]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.40.19:585][573]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.43.03:581][  2]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.43.03:810][  2]LogSavePackage: Save=86.71ms
+[2017.08.16-16.43.03:810][  2]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParametersF134E17043A16832E59674B31480FB03.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.43.03:812][  2]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.43.04:848][ 85]LogSavePackage: Save=83.13ms
+[2017.08.16-16.43.04:848][ 85]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParametersD1B8EE4E4E701D782D6820959EEEFF23.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.43.04:849][ 85]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.43.18:159][522]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.43.18:373][522]LogSavePackage: Save=82.74ms
+[2017.08.16-16.43.18:373][522]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParameters95E515DD4692300115BFC19030F9AE5C.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.43.18:375][522]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.43.35:851][507]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.43.35:851][507]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.44.02:247][571]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.45.04:316][327]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.45.52:183][348]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2017.08.16-16.46.54:877][940]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.46.54:877][940]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.48.35:645][294]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.08.16-16.48.36:153][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="../../../../../Project/NewLife/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.08.16-16.48.36:306][294]LogSavePackage: Save=145.26ms
+[2017.08.16-16.48.36:306][294]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/FirstPersonCharacterCBA842F7490CDC1853251DB85A6DAC30.tmp' to '../../../../../Project/NewLife/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.08.16-16.48.36:308][294]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.08.16-16.48.37:625][364]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.16-16.48.37:647][364]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.48.37:648][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-16.48.37:648][364]PIE: New page: PIE session: FirstPersonExampleMap (Aug 16, 2017, 10:48:37 PM)
+[2017.08.16-16.48.37:648][364]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.16-16.48.37:681][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032927s)
+[2017.08.16-16.48.37:683][364]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.16-16.48.37:683][364]LogPlayLevel: PIE: World Init took: (0.002157s)
+[2017.08.16-16.48.37:684][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.035734s)
+[2017.08.16-16.48.37:721][364]LogInit: XAudio2 using 'Динамики (2- USB PnP Sound Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.16-16.48.37:730][364]LogInit: FAudioDevice initialized.
+[2017.08.16-16.48.37:767][364]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.16-16.48.37:771][364]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.16-19.48.37
+[2017.08.16-16.48.37:771][364]LogWorld: Bringing up level for play took: 0.003728
+[2017.08.16-16.48.37:773][364]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.001
+[2017.08.16-16.48.37:773][364]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.48.40:348][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.48.40:417][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.48.42:270][673]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.16-16.48.42:287][673]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.48.42:287][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-16.48.42:287][673]PIE: New page: PIE session: FirstPersonExampleMap (Aug 16, 2017, 10:48:42 PM)
+[2017.08.16-16.48.42:287][673]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.16-16.48.42:319][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032352s)
+[2017.08.16-16.48.42:321][673]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.16-16.48.42:321][673]LogPlayLevel: PIE: World Init took: (0.001785s)
+[2017.08.16-16.48.42:322][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.034809s)
+[2017.08.16-16.48.42:357][673]LogInit: XAudio2 using 'Динамики (2- USB PnP Sound Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.16-16.48.42:364][673]LogInit: FAudioDevice initialized.
+[2017.08.16-16.48.42:417][673]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.16-16.48.42:421][673]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.16-19.48.42
+[2017.08.16-16.48.42:422][673]LogWorld: Bringing up level for play took: 0.004391
+[2017.08.16-16.48.42:430][673]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.658
+[2017.08.16-16.48.42:431][673]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.48.56:238][930]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.48.56:321][930]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.48.58:743][179]LogRenderer: Reallocating scene render targets to support 1208x712 Format 9 NumSamples 1 (Frame:1).
+[2017.08.16-16.49.27:964][140]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.49.28:095][140]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.08.16-16.49.28:095][140]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.08.16-16.49.28:604][140]LogSavePackage: Save=86.02ms
+[2017.08.16-16.49.28:604][140]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParameters53971C0A45ECBC418332B29B2FD2927C.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.49.28:606][140]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.49.29:242][209]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.16-16.49.29:259][209]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.49.29:260][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-16.49.29:260][209]PIE: New page: PIE session: FirstPersonExampleMap (Aug 16, 2017, 10:49:29 PM)
+[2017.08.16-16.49.29:260][209]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.16-16.49.29:292][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032148s)
+[2017.08.16-16.49.29:294][209]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.16-16.49.29:294][209]LogPlayLevel: PIE: World Init took: (0.002175s)
+[2017.08.16-16.49.29:295][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.034956s)
+[2017.08.16-16.49.29:355][209]LogInit: XAudio2 using 'Динамики (2- USB PnP Sound Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.16-16.49.29:364][209]LogInit: FAudioDevice initialized.
+[2017.08.16-16.49.29:412][209]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.16-16.49.29:417][209]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.16-19.49.29
+[2017.08.16-16.49.29:418][209]LogWorld: Bringing up level for play took: 0.004626
+[2017.08.16-16.49.29:423][209]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.349
+[2017.08.16-16.49.29:423][209]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.49.32:434][462]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.49.32:502][462]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.49.39:497][147]LogSlate: Took 0.008773 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.08.16-16.49.43:193][439]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.16-16.49.43:213][439]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.49.43:214][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-16.49.43:214][439]PIE: New page: PIE session: FirstPersonExampleMap (Aug 16, 2017, 10:49:43 PM)
+[2017.08.16-16.49.43:214][439]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.16-16.49.43:244][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029637s)
+[2017.08.16-16.49.43:246][439]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.16-16.49.43:247][439]LogPlayLevel: PIE: World Init took: (0.002566s)
+[2017.08.16-16.49.43:248][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.033470s)
+[2017.08.16-16.49.43:284][439]LogInit: XAudio2 using 'Динамики (2- USB PnP Sound Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.16-16.49.43:292][439]LogInit: FAudioDevice initialized.
+[2017.08.16-16.49.43:329][439]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.16-16.49.43:332][439]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.16-19.49.43
+[2017.08.16-16.49.43:333][439]LogWorld: Bringing up level for play took: 0.003703
+[2017.08.16-16.49.43:335][439]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.437
+[2017.08.16-16.49.43:335][439]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.49.48:363][855]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.49.48:422][855]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.49.57:165][753]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.16-16.49.57:183][753]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.49.57:184][753]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-16.49.57:184][753]PIE: New page: PIE session: FirstPersonExampleMap (Aug 16, 2017, 10:49:57 PM)
+[2017.08.16-16.49.57:184][753]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.16-16.49.57:218][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033105s)
+[2017.08.16-16.49.57:220][753]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.16-16.49.57:220][753]LogPlayLevel: PIE: World Init took: (0.002244s)
+[2017.08.16-16.49.57:221][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.036730s)
+[2017.08.16-16.49.57:259][753]LogInit: XAudio2 using 'Динамики (2- USB PnP Sound Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.16-16.49.57:267][753]LogInit: FAudioDevice initialized.
+[2017.08.16-16.49.57:309][753]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.16-16.49.57:315][753]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.16-19.49.57
+[2017.08.16-16.49.57:315][753]LogWorld: Bringing up level for play took: 0.005242
+[2017.08.16-16.49.57:321][753]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.451
+[2017.08.16-16.49.57:322][753]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.49.57:924][792]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_CustomEvent', from offset 526
+[2017.08.16-16.49.57:924][792]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:InpActEvt_E_K2Node_InputKeyEvent_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/Data/BP/Character/Component/CharacterBaseParameters.CharacterBaseParameters_C:TakeDamage
+	Function /Game/Data/BP/Character/Component/CharacterBaseParameters.CharacterBaseParameters_C:ExecuteUbergraph_CharacterBaseParameters
+
+[2017.08.16-16.50.00:205][792]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.50.00:270][792]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.50.43:724][696]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2017.08.16-16.50.56:467][543]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.057
+[2017.08.16-16.50.59:003][543]LogSavePackage: Save=2629.75ms
+[2017.08.16-16.50.59:003][543]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/FirstPersonExampleMapD6A3FD7E496864F19F5A56B75D8593AA.tmp' to '../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.08.16-16.50.59:006][543]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.08.16-16.50.59:070][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData" FILE="../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.08.16-16.51.00:161][543]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.16-16.51.02:418][543]LogSavePackage: Save=3238.05ms
+[2017.08.16-16.51.02:418][543]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/FirstPersonExampleMap_BuiltData481D723F407A9E74571CB5909FCCA198.tmp' to '../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.08.16-16.51.02:421][543]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.08.16-16.51.21:705][855]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2017.08.16-16.51.22:541][914]Cmd: DELETE
+[2017.08.16-16.51.22:541][914]Cmd: ACTOR DELETE
+[2017.08.16-16.51.22:546][914]LogEditorActor: Deleted Actor: FirstPersonCharacter_C
+[2017.08.16-16.51.22:626][914]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2017.08.16-16.51.46:000][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="../../../../../Project/NewLife/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.08.16-16.51.46:153][556]LogSavePackage: Save=149.60ms
+[2017.08.16-16.51.46:153][556]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/FirstPersonCharacter952B4073436A81781884C4AED8FF7A6A.tmp' to '../../../../../Project/NewLife/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.08.16-16.51.46:154][556]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.08.16-16.51.46:572][605]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.08.16-16.51.47:806][675]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.08.16-16.52.00:436][591]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.16-16.52.00:462][591]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.52.00:463][591]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.16-16.52.00:491][591]LogPlayLevel: [PlayLevel] Compiling CharacterBaseParameters before play...
+[2017.08.16-16.52.00:509][591]LogPlayLevel: [PlayLevel]   Compiling FirstPersonCharacter as a dependent...
+[2017.08.16-16.52.00:586][591]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.08.16-16.52.00:587][591]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.08.16-16.52.01:128][591]LogSavePackage: Save=81.57ms
+[2017.08.16-16.52.01:128][591]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParameters61B5BAC34FBC7858BD9EF2ACD898B1CE.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.52.01:131][591]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.52.01:166][591]LogPlayLevel: PlayLevel: Blueprint regeneration took 703 ms (2 blueprints)
+[2017.08.16-16.52.01:167][591]PIE: New page: PIE session: FirstPersonExampleMap (Aug 16, 2017, 10:52:01 PM)
+[2017.08.16-16.52.01:167][591]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.16-16.52.01:198][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030700s)
+[2017.08.16-16.52.01:200][591]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.16-16.52.01:201][591]LogPlayLevel: PIE: World Init took: (0.002915s)
+[2017.08.16-16.52.01:202][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.035119s)
+[2017.08.16-16.52.01:260][591]LogInit: XAudio2 using 'Динамики (2- USB PnP Sound Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.16-16.52.01:268][591]LogInit: FAudioDevice initialized.
+[2017.08.16-16.52.01:304][591]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.16-16.52.01:307][591]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.16-19.52.01
+[2017.08.16-16.52.01:312][591]LogWorld: Bringing up level for play took: 0.007420
+[2017.08.16-16.52.01:317][591]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.545
+[2017.08.16-16.52.01:317][591]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.52.02:512][697]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_CustomEvent', from offset 526
+[2017.08.16-16.52.02:512][697]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:InpActEvt_E_K2Node_InputKeyEvent_4
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/Data/BP/Character/Component/CharacterBaseParameters.CharacterBaseParameters_C:TakeDamage
+	Function /Game/Data/BP/Character/Component/CharacterBaseParameters.CharacterBaseParameters_C:ExecuteUbergraph_CharacterBaseParameters
+
+[2017.08.16-16.52.13:612][697]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.52.13:713][697]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.52.15:057][780]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.16-16.52.15:077][780]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.52.15:078][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-16.52.15:078][780]PIE: New page: PIE session: FirstPersonExampleMap (Aug 16, 2017, 10:52:15 PM)
+[2017.08.16-16.52.15:078][780]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.16-16.52.15:109][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030952s)
+[2017.08.16-16.52.15:112][780]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.16-16.52.15:113][780]LogPlayLevel: PIE: World Init took: (0.002909s)
+[2017.08.16-16.52.15:113][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.035022s)
+[2017.08.16-16.52.15:178][780]LogInit: XAudio2 using 'Динамики (2- USB PnP Sound Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.16-16.52.15:186][780]LogInit: FAudioDevice initialized.
+[2017.08.16-16.52.15:221][780]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.16-16.52.15:225][780]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.16-19.52.15
+[2017.08.16-16.52.15:226][780]LogWorld: Bringing up level for play took: 0.004304
+[2017.08.16-16.52.15:230][780]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.542
+[2017.08.16-16.52.15:230][780]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.52.25:318][771]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.52.25:409][771]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.53.10:451][135]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.53.10:574][135]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.08.16-16.53.10:574][135]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.08.16-16.53.11:199][135]LogSavePackage: Save=85.16ms
+[2017.08.16-16.53.11:199][135]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParametersC235932640F0F325E444A6B1C2DA0DB3.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.53.11:201][135]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.53.12:308][257]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.16-16.53.12:327][257]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.53.12:327][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-16.53.12:328][257]PIE: New page: PIE session: FirstPersonExampleMap (Aug 16, 2017, 10:53:12 PM)
+[2017.08.16-16.53.12:328][257]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.16-16.53.12:360][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031697s)
+[2017.08.16-16.53.12:362][257]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.16-16.53.12:363][257]LogPlayLevel: PIE: World Init took: (0.002332s)
+[2017.08.16-16.53.12:363][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.035551s)
+[2017.08.16-16.53.12:431][257]LogInit: XAudio2 using 'Динамики (2- USB PnP Sound Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.16-16.53.12:440][257]LogInit: FAudioDevice initialized.
+[2017.08.16-16.53.12:485][257]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.16-16.53.12:490][257]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.16-19.53.12
+[2017.08.16-16.53.12:491][257]LogWorld: Bringing up level for play took: 0.004977
+[2017.08.16-16.53.12:499][257]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.727
+[2017.08.16-16.53.12:499][257]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.53.13:878][366]LogBlueprintUserMessages: [CharacterBaseParameters] FirstPersonCharacter: Умер!
+[2017.08.16-16.53.14:128][388]LogBlueprintUserMessages: [CharacterBaseParameters] FirstPersonCharacter: Умер!
+[2017.08.16-16.53.15:034][463]LogBlueprintUserMessages: [CharacterBaseParameters] FirstPersonCharacter: Умер!
+[2017.08.16-16.53.15:247][482]LogBlueprintUserMessages: [CharacterBaseParameters] FirstPersonCharacter: Умер!
+[2017.08.16-16.53.16:008][527]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.53.16:139][527]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.57.48:876][336]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.16-16.57.48:908][336]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.57.48:909][336]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.16-16.57.48:954][336]LogPlayLevel: [PlayLevel] Compiling CharacterBaseParameters before play...
+[2017.08.16-16.57.48:986][336]LogPlayLevel: [PlayLevel]   Compiling FirstPersonCharacter as a dependent...
+[2017.08.16-16.57.49:134][336]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.08.16-16.57.49:135][336]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.08.16-16.57.49:862][336]LogSavePackage: Save=88.30ms
+[2017.08.16-16.57.49:862][336]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParametersEFB447EF47BA85C8F9B6679968A45936.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.57.49:864][336]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.57.49:901][336]LogPlayLevel: PlayLevel: Blueprint regeneration took 992 ms (2 blueprints)
+[2017.08.16-16.57.49:902][336]PIE: New page: PIE session: FirstPersonExampleMap (Aug 16, 2017, 10:57:49 PM)
+[2017.08.16-16.57.49:902][336]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.08.16-16.57.49:936][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033816s)
+[2017.08.16-16.57.49:938][336]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.16-16.57.49:939][336]LogPlayLevel: PIE: World Init took: (0.002764s)
+[2017.08.16-16.57.49:940][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.037782s)
+[2017.08.16-16.57.49:999][336]LogInit: XAudio2 using 'Динамики (2- USB PnP Sound Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.16-16.57.50:008][336]LogInit: FAudioDevice initialized.
+[2017.08.16-16.57.50:049][336]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.16-16.57.50:053][336]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.08.16-19.57.50
+[2017.08.16-16.57.50:054][336]LogWorld: Bringing up level for play took: 0.004757
+[2017.08.16-16.57.50:062][336]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.29
+[2017.08.16-16.57.50:063][336]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.57.51:303][408]LogBlueprintUserMessages: [CharacterBaseParameters] FirstPersonCharacter: Умер!
+[2017.08.16-16.57.53:788][580]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.57.53:898][580]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.08.16-16.57.56:168][811]BlueprintLog: New page: Compile CharacterBaseParameters
+[2017.08.16-16.57.56:282][811]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.08.16-16.57.56:282][811]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.08.16-16.57.57:356][860]LogSavePackage: Save=86.64ms
+[2017.08.16-16.57.57:357][860]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/CharacterBaseParametersFF1B547548EDFB3CDA0AE68EB4B7E720.tmp' to '../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset'
+[2017.08.16-16.57.57:358][860]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/Data/BP/Character/Component/CharacterBaseParameters.uasset
+[2017.08.16-16.58.01:760][154]SourceControl: fatal: D:/Epic Games/UE_4.17/Engine/Content/: 'D:/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.08.16-16.58.04:666][154]LogSavePackage: Save=107.08ms
+[2017.08.16-16.58.04:666][154]LogSavePackage: Moving '../../../../../Project/NewLife/Saved/FirstPersonExampleMap91F5D59340938315ABDC318AC3E9B188.tmp' to '../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.08.16-16.58.04:669][154]LogSavePackage: Display: Finished SavePackage ../../../../../Project/NewLife/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.08.16-16.58.04:696][154]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.240
+[2017.08.16-16.58.10:049][154]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.58.10:049][154]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.58.15:213][154]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.58.15:213][154]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.58.29:822][154]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.58.29:823][154]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.16-16.58.34:545][154]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.08.16-16.58.34:600][154]SourceControl: [master feb50c4] Поправил DeadEvent.
+[2017.08.16-16.58.34:600][154]SourceControl:  4 files changed, 0 insertions(+), 0 deletions(-)
+[2017.08.16-16.58.34:600][154]SourceControl:  rewrite Content/Data/BP/Character/Component/CharacterBaseParameters.uasset (87%)
+[2017.08.16-16.58.34:600][154]SourceControl:  rewrite Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset (80%)
+[2017.08.16-16.58.34:609][154]SourceControl: Commited [master feb50c4] Поправил DeadEvent..
